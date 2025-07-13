@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week - 3 | Tree Plantation</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Raleway:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="activity3.css" />
+
+</head>
+
+<body>
+    <h1>Week - 3</h1>
+    <p style="text-align: center; font-family: 'Raleway', sans-serif;"><b>(From 27-05-2025 to 01-06-2025)</b></p>
+    <h2>🌳 Tree Plantation Activity</h2>
+
+    <section class="content">
+        <p>Plants and trees clean our water, soil, and air — making our environment a safer and healthier place to live. Our health starts with the quality of the air we breathe and the water we drink, so it stands to reason that our health is closely connected
+            to our environment.</p>
+        <div class="gallery">
+            <div class="photo" onclick="openModal('deekshith.jpeg')">
+                <img src="deekshith.jpeg" alt="Nature Bliss">
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <p>Trees filter the air by removing harmful pollutants like carbon dioxide, ozone, nitrogen dioxide, and fine particulate matter. Their impact reaches far beyond aesthetics — they help us breathe cleaner.</p>
+        <div class="gallery">
+            <div class="photo" onclick="openModal('uma.jpeg')">
+                <img src="uma.jpeg" alt="Urban Vibes">
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <p>Bringing greenery into our neighborhoods has been linked to lower risks of stroke, heart disease, and respiratory failure. The U.S. Forest Service estimates trees save over <strong>850 million lives</strong> annually — a testament to nature's
+            power.
+        </p>
+        <div class="gallery">
+            <div class="photo" onclick="openModal('eswar.jpeg')">
+                <img src="eswar.jpeg" alt="Health Boost">
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-img" src="" alt="Expanded View">
+        </div>
+    </div>
+
+    <script src="activity3.js"></script>
+</body>
+
+</html>
